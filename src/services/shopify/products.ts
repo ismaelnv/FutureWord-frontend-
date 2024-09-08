@@ -38,6 +38,7 @@ export const getProducts = async (id?: string): Promise<ProductType[]> => {
     }catch (error){
 
         console.log(error)
+        return []
     }
     
 }
@@ -51,6 +52,12 @@ export const getMainProducts = async () => {
             headers: {
     
                 'X-Shopify-Access-Token': env.SHOPIFY_API_KEY
+            },
+            
+            cache: 'force-cache',
+            next: {
+
+                tags: ['main-products']
             }
         })
     

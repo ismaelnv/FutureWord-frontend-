@@ -1,4 +1,3 @@
-import { MainProducts } from "app/components/home/MainProducts"
 import { env } from "app/config/env"
 
 export const shopifyUrls = {
@@ -6,7 +5,7 @@ export const shopifyUrls = {
     products: {
 
         'all': `https://${env.SHOPIFY_HOSTNAME}/admin/api/2023-10/products.json`,
-         mainProducts: `https://${env.SHOPIFY_HOSTNAME}/admin/api/2023-10/collections/447102484715/products.json`
+        'mainProducts': `https://${env.SHOPIFY_HOSTNAME}/admin/api/2023-10/collections/447102484715/products.json`
     }, 
 
     collections:{

@@ -12,9 +12,9 @@ export const getCollections = async () => {
                 'X-Shopify-Access-Token': env.SHOPIFY_API_KEY
             }
         })
-    
+        
         const { smart_collections } = await response.json();
-        const trasformedCollections = smart_collections.map((colleciton: collecitonDto)=>{
+        const trasformedCollections = smart_collections?.map((colleciton: collecitonDto)=>{
             
             return {
 
