@@ -1,8 +1,10 @@
-
+'use client'
 import { Header } from "../components/shared/Header/Header";
 import { Footer } from "../components/shared/Footer/Footer";  
 import 'app/sass/globals.sass'
 import { Roboto } from "next/font/google";
+import { Provider } from 'react-redux';
+import store from '../redux/redux';
 
 const roboto = Roboto({
 
@@ -20,10 +22,11 @@ export default function RootLayout({
     <html lang="en">
 
       <body className={roboto.className}>
-
-        <Header/>
-        {children}
-        <Footer/>
+        <Provider store={store}>
+          <Header/>
+          {children}
+          <Footer/>
+        </Provider>
       </body>
     </html>
   );

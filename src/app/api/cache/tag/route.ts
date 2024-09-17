@@ -1,5 +1,5 @@
 import { env } from "app/config/env";
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidateTag } from "next/cache";
 
 export async function POST(request: Request){
 

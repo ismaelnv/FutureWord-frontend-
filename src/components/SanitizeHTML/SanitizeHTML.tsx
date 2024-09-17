@@ -4,6 +4,7 @@ import sanitize from 'sanitize-html';
 type SanitizeHTMLProps = {
 
     tag: string;
+    children: string
 
 } & HTMLAttributes<HTMLElement>;
 

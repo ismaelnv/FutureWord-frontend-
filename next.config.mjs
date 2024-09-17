@@ -17,12 +17,7 @@ const nextConfig = {
     },
     images: {
 
-        remotePatterns:[{
-
-            hostname:'cdn.shopify.com',
-            protocol:'https',
-
-        }]
+        domains: ['localhost'],
     }
 };
 

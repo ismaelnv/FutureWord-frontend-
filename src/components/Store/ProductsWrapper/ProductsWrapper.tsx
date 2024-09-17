@@ -1,9 +1,10 @@
+import { Product } from 'app/model/product'
 import { ProductCard } from '../ProductCard'
 import styles from './ProductsWrapper.module.sass'
 
 interface ProductsWrapperProps {
   
-  products: ProductType[]
+  products: Product[]
 }
 
 export const ProductsWrapper = ({ products }: ProductsWrapperProps) => {
