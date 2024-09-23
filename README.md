@@ -1,25 +1,14 @@
-![image](https://github.com/user-attachments/assets/12d5f1ad-d3ef-48b8-91d2-1c4bbfc2d754)
-![image](https://github.com/user-attachments/assets/4a1e8b84-a1e7-4704-b868-e888529f08da)
-![image](https://github.com/user-attachments/assets/362dd317-bf64-43f7-8a34-a606f8a23a40)
-![image](https://github.com/user-attachments/assets/9e5684b7-ee6f-4ce1-baf0-96ce9720bd69)
+
+# FUTURE WORLD
 
 
+### Esta aplicación fue creada para profundizar en Next.js usando TypeScript y React. Emplea Redux para la gestión de estados globales y utiliza Material UI para el diseño de la interfaz. Se trata de una landing page sencilla que cuenta con un buscador y un catálogo de productos, permitiendo a los usuarios navegar y filtrar productos de forma rápida y eficiente.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Versiones
+  * Material UI: 6.1.0
+  * Material UI Icons: 6.1.0
+  * Next.js: 14.2.7
+  * Redux Toolkit: 2.2.7
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
